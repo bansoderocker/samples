@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">samples</string>
+
+
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="religion">
+        
+        <item>r1</item>
+        <item>r2</item>
+        <item>r3</item>
+        <item>r4</item>
+        <item>r5</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>KALAMBOLI</item>
+        <item>KAMOTHE</item>
+        <item>KHARGHAR</item>
+    </string-array>
+
+
+    <string-array name="age">
+        <item>15-20</item>
+        <item>20-25</item>
+        <item>25-30</item>
+        <item>30-35</item>
+        <item>35+</item>
+    </string-array>
+
+
+</resources>
