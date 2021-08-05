@@ -129,6 +129,7 @@
     </TableLayout>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rclview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -139,9 +140,10 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
+            android:id="@+id/img_selector"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="submit"/>
+            android:text="select image"/>
 
     </LinearLayout>
 
