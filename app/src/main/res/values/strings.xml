@@ -2,16 +2,15 @@
     <string name="app_name">samples</string>
 
 
-    <string-array name="numbers">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Four</item>
-        <item>Five</item>
+    <string-array name="gender">
+        <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
     </string-array>
 
     <string-array name="religion">
-        
+        <item>All</item>
         <item>r1</item>
         <item>r2</item>
         <item>r3</item>
@@ -20,18 +19,79 @@
     </string-array>
 
     <string-array name="city">
+        <item>All</item>
         <item>KALAMBOLI</item>
         <item>KAMOTHE</item>
         <item>KHARGHAR</item>
     </string-array>
 
 
+    <string-array name="category">
+        <item>All</item>
+        <item>Food</item>
+        <item>Electronics</item>
+        <item>Essential</item>
+        <item>Education</item>
+        <item>Beauty &amp; Fashion</item>
+        <item>Real Estate</item>
+        <item>Other Services</item>
+    </string-array>
+
+    <string-array name="app">
+        <item>All</item>
+        <item>LS Best</item>
+        <item>LS All Stores</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>All</item>
+        <item>Starts with First Name</item>
+        <item>Last Name</item>
+    </string-array>
+
+
+    <string-array name="imagesize">
+        <item>All</item>
+        <item>4:5</item>
+        <item>2:3</item>
+        <item>16:9</item>
+        <item>10:2</item>
+    </string-array>
+    <string-array name="birthday">
+        <item>All</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="filetype">
+        <item>Image</item>
+        <item>GIF</item>
+        <item>Video</item>
+    </string-array>
+
     <string-array name="age">
+        <item>All</item>
         <item>15-20</item>
         <item>20-25</item>
         <item>25-30</item>
         <item>30-35</item>
-        <item>35+</item>
+        <item>35-40</item>
+        <item>40+</item>
+    </string-array>
+
+    <string-array name="sequence">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="scroll_position">
+
+        <item>1</item>
+        <item>2</item>
+
     </string-array>
 
 

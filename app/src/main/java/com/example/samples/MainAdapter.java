@@ -14,12 +14,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
-   ArrayList<Model1> model1;
+   //ArrayList<Model1> model1;
+   List<Model1> model1;
    Context context;
+   String pos;
+   item_counter counter;
 
-   public MainAdapter(Context context, ArrayList<Model1> model1){
+   public MainAdapter(Context context, ArrayList<Model1> model1,item_counter counter){
+       this.counter=counter;
        this.context=context;
        this.model1=model1;
    }
@@ -42,6 +47,17 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
             inputStream = context. getContentResolver().openInputStream(model1.get(position).getImages());
             Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
             holder.image.setImageBitmap(bitmap);
+
+
+
+            holder.clearimage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    model1.remove(holder.getAdapterPosition());
+                    notifyDataSetChanged();
+                }
+            });
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -54,10 +70,12 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView image;
+        ImageView image,clearimage;
        public ViewHolder(View itemView){
            super(itemView);
            image=itemView.findViewById(R.id.image);
+           clearimage=itemView.findViewById(R.id.clear_imager);
+
        }
     }
 }
