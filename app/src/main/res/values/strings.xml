@@ -3,6 +3,7 @@
 
 
     <string-array name="gender">
+        <item>Gender</item>
         <item>All</item>
         <item>Male</item>
         <item>Female</item>
@@ -10,6 +11,7 @@
     </string-array>
 
     <string-array name="religion">
+        <item>Religion</item>
         <item>All</item>
         <item>r1</item>
         <item>r2</item>
@@ -19,6 +21,7 @@
     </string-array>
 
     <string-array name="city">
+        <item>City</item>
         <item>All</item>
         <item>KALAMBOLI</item>
         <item>KAMOTHE</item>
@@ -27,6 +30,7 @@
 
 
     <string-array name="category">
+        <item>Category</item>
         <item>All</item>
         <item>Food</item>
         <item>Electronics</item>
@@ -38,12 +42,14 @@
     </string-array>
 
     <string-array name="app">
+        <item>App</item>
         <item>All</item>
         <item>LS Best</item>
         <item>LS All Stores</item>
     </string-array>
 
     <string-array name="name">
+        <item>Name</item>
         <item>All</item>
         <item>Starts with First Name</item>
         <item>Last Name</item>
@@ -51,6 +57,7 @@
 
 
     <string-array name="imagesize">
+        <item>Image size</item>
         <item>All</item>
         <item>4:5</item>
         <item>2:3</item>
@@ -58,18 +65,21 @@
         <item>10:2</item>
     </string-array>
     <string-array name="birthday">
+        <item>Birthday</item>
         <item>All</item>
         <item>Yes</item>
         <item>No</item>
     </string-array>
 
     <string-array name="filetype">
+        <item>File type</item>
         <item>Image</item>
         <item>GIF</item>
         <item>Video</item>
     </string-array>
 
     <string-array name="age">
+        <item>Age</item>
         <item>All</item>
         <item>15-20</item>
         <item>20-25</item>
@@ -80,7 +90,7 @@
     </string-array>
 
     <string-array name="sequence">
-
+        <item>Sequence</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -88,11 +98,13 @@
     </string-array>
 
     <string-array name="scroll_position">
-
+        <item>Scroll Position</item>
         <item>1</item>
         <item>2</item>
 
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
