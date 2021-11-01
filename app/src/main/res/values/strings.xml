@@ -34,5 +34,5 @@
         <item>35+</item>
     </string-array>
 
-
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAKogEu41u2Vp6b3DzUAEhnlZz22bKPHh4</string>
 </resources>
